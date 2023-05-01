@@ -20,7 +20,7 @@ body {
 #main {
     overflow: auto;
     padding-bottom: 100px;
-    background-color: black;
+    background-color: white;
     height: 3000px;
 }
 
@@ -116,7 +116,7 @@ h2 {
 .content {
     display: inline-block;
     width: 500px;
-    margin-top: 200px;
+    margin-top: 100x;
     margin-left: 25%;
     text-align: center;
     font-size: 30px;
@@ -124,7 +124,6 @@ h2 {
 }
 
 h3 {
-    
     font-family: 'Berkshire Swash', cursive;
     color: #C399E3;
     text-align: center;
@@ -132,24 +131,44 @@ h3 {
     margin-top: 200px;
 }
 
-.skills-content {
-    display: inline-block;
-    width: 500px;
-    margin-top: 200px;
-    margin-left: 25%;
-    text-align: center;
-    font-size: 30px;
-    color: #C399E3;
+#flexContainer {
+    display: flex;
+    flex-direction: row;
+           
 }
 
+.flex-item {
+    display: flex;
+    background-color: #C399E3;
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+    margin-right: 25px;
+    padding: 5px;
+    }
+
+
+h2 {
+    font-family: 'Berkshire Swash', cursive;
+    color: #C399E3;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 200px;
+}
 
 h4 {
-    display: inline-block;
-    font-family: "Montserrat";
-    font-size: 32px;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    font-family: "Montserrat";
+    font-size: 24px;
     margin-top: 10px;
 }
+
+
+
+
+
 
 .work-content {
     display: inline-block;
