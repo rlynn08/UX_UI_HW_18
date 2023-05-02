@@ -21,7 +21,7 @@ body {
     overflow: auto;
     padding-bottom: 100px;
     background-color: white;
-    height: 3000px;
+    height: 1500px;
 }
 
 .logo {
@@ -109,105 +109,120 @@ h2 {
     display:inline-block;
     font-family: 'Berkshire Swash', cursive;
     font-size: 48px;
+    margin-top: 200px;
     text-align: center;
-    color:#C399E3
+    color:#C399E3;
+    
 }
 
 .content {
     display: inline-block;
     width: 500px;
-    margin-top: 100x;
+    margin-top: 20x;
     margin-left: 25%;
     text-align: center;
     font-size: 30px;
     color: #C399E3;
 }
 
-h3 {
-    font-family: 'Berkshire Swash', cursive;
-    color: #C399E3;
-    text-align: center;
-    font-size: 48px;
-    margin-top: 200px;
+p {
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
 #flexContainer {
     display: flex;
     flex-direction: row;
     border: 2px #98E1E1;
+    margin-top: 20px;
            
 }
 
 .flex-item {
-    display: flex;
+    
+    justify-content: center;
     background-color: #C399E3;
     width: 300px;
-    height: 350px;
+    height: 400px;
     margin-left: 50px;
     margin-right: 25px;
-    padding: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
     }
 
+.flex-item h4 {
+   text-align: center;
+}
 
-h2 {
-    font-family: 'Berkshire Swash', cursive;
-    color: #C399E3;
+.flex-item p {
     text-align: center;
-    font-size: 48px;
-    margin-top: 200px;
+ }
+
+
+.skillImage1 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+
+.skillImage {
+    display: inline-block;
 }
 
 h3 {
     display: flex;
-    text-align: center;
+   text-align: center;
     font-family: "Montserrat";
     font-size: 24px;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
+h4 {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: 24px;
+    margin-top: 75px;
+}
 
 
 .workGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
+    grid-template-columns: 300px 400px;
     grid-template-rows: 400px 400px;
-    row-gap: 20px;
+    column-gap: 60px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
     grid-template-areas: "my area";
-    margin: top 100px;
+    background-color: #C399E3;
+    margin: top 20px;
+
+
 }
 
-
-
-h2 {
-    font-family: 'Berkshire Swash', cursive;
-    color: #C399E3;
-    text-align: center;
-    font-size: 48px;
-    margin-top: 100px;
-}  
-   
-
-    
-
-   
           
 
         
  
             .button {
-                background-color: #C399E3; /* dark lavender */
-                border: none;
+                font-family: 'Berkshire Swash', cursive; 
+                font-size: x-large;        
                 padding: 14px 40px;
-                text-align: center;
                 text-decoration: none;
-                display: inline-block;
-                font-size: 44px;
+                display: flex;
+                justify-content: center;
+                margin-top: 100px;
+                margin-bottom: 200px;
+               
               }    
  
 #footer {
     text-align: center;
     bottom: 0;
+   
 }
 
 
